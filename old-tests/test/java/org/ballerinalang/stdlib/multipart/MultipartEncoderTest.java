@@ -18,8 +18,8 @@
 
 package org.ballerinalang.stdlib.multipart;
 
+import io.ballerina.runtime.api.values.BObject;
 import io.netty.handler.codec.http.HttpHeaderNames;
-import org.ballerinalang.jvm.api.values.BObject;
 import org.ballerinalang.mime.util.MimeUtil;
 import org.ballerinalang.mime.util.MultipartDataSource;
 import org.ballerinalang.mime.util.MultipartDecoder;
@@ -106,7 +106,7 @@ public class MultipartEncoderTest {
     }
 
     @Test(description = "Test whether the body parts get correctly encoded for any new multipart sub type")
-    public void testMultipartWriterForNewSubTypes() {
+    public void testMultipartWriterForNewSuTypes() {
         BObject multipartEntity = getMultipartEntity();
         ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
         String multipartDataBoundary = MimeUtil.getNewMultipartDelimiter();

@@ -116,7 +116,7 @@
 //    // }
 //
 //    // @Test(description = "Test Produces with sub type wildcard header with URL. /echo66/test2 ")
-//    // public void testProducesAnnotationWithSubTypeWildCard() {
+//    // public void testProducesAnnotationWithSuTypeWildCard() {
 //    //     String path = "/echo66/test2";
 //    //     HTTPTestRequest cMsg = MessageUtils.generateHTTPMessage(path, "GET");
 //    //     cMsg.setHeader(HttpHeaderNames.ACCEPT.toString(), "text/*;q=0.3, text/html;Level=1;q=0.7");
